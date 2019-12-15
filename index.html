@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Final Project - Pixel Art Maker!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <h1>Really Fun <br> Pixel Art Maker</h1>
+
+    <h2>Two Basic Steps:<br> 1. Choose Your Grid Size:</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="1" value="1">
+        <input type="submit">
+    </form>
+
+    <h2>2. Pick Your Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Your Painting Canvas is below.<br>Just click and paint!</h2>
+
+    <table id="pixelCanvas"></table>
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="designs2.js"></script>
+</body>
+</html>
